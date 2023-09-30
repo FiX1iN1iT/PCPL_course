@@ -1,6 +1,6 @@
 import Foundation
 
-/// # Linear Equation Solver
+// # Linear Equation Solver
 func linearSolve(a: Double, b: Double) -> [Double] {
     if a == 0 {
         return []
@@ -10,7 +10,7 @@ func linearSolve(a: Double, b: Double) -> [Double] {
 }
 
 
-/// # Quadratic Equation Solver
+// # Quadratic Equation Solver
 func quadraticSolve(a: Double, b: Double, c: Double, threshold: Double = 0.0001) -> [Double] {
     if a == 0 { return linearSolve(a: b, b: c) }
     
@@ -34,7 +34,7 @@ func quadraticSolve(a: Double, b: Double, c: Double, threshold: Double = 0.0001)
 }
 
 
-/// # Biquadratic Equation Solver
+// # Biquadratic Equation Solver
 func biquadrateSolve(a: Double, b: Double, c: Double) -> [Double] {
     var result = [Double]()
     let solutions = quadraticSolve(a: a, b: b, c: c)
