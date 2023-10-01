@@ -3,30 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19A845711DCE142413A5F451 /* Pods_Biquadrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED13FC78AC521CB118E5DA /* Pods_Biquadrate.framework */; };
+		9496C802B99B7B8EF45EC105 /* Pods_Biquadrate_WorkingBiquadrateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC96EA6B483A467E7C34E303 /* Pods_Biquadrate_WorkingBiquadrateTests.framework */; };
+		FA6850FF2AC9E2F700574724 /* WorkingBiquadrateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6850FE2AC9E2F700574724 /* WorkingBiquadrateTests.swift */; };
+		FA6851062AC9E34200574724 /* WorkingQuickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6851052AC9E34200574724 /* WorkingQuickTests.swift */; };
 		FAD8970B2AC88D640017B4BF /* BiquadrateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8970A2AC88D640017B4BF /* BiquadrateApp.swift */; };
 		FAD8970D2AC88D640017B4BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8970C2AC88D640017B4BF /* ContentView.swift */; };
 		FAD8970F2AC88D660017B4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD8970E2AC88D660017B4BF /* Assets.xcassets */; };
 		FAD897122AC88D660017B4BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD897112AC88D660017B4BF /* Preview Assets.xcassets */; };
-		FAD8971C2AC88D660017B4BF /* BiquadrateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8971B2AC88D660017B4BF /* BiquadrateTests.swift */; };
-		FAD897262AC88D660017B4BF /* BiquadrateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD897252AC88D660017B4BF /* BiquadrateUITests.swift */; };
-		FAD897282AC88D660017B4BF /* BiquadrateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD897272AC88D660017B4BF /* BiquadrateUITestsLaunchTests.swift */; };
 		FAD897352AC88DCF0017B4BF /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD897342AC88DCF0017B4BF /* Calculation.swift */; };
-		FAD897372AC88EE60017B4BF /* CalculationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD897362AC88EE60017B4BF /* CalculationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FAD897182AC88D660017B4BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAD896FF2AC88D630017B4BF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAD897062AC88D640017B4BF;
-			remoteInfo = Biquadrate;
-		};
-		FAD897222AC88D660017B4BF /* PBXContainerItemProxy */ = {
+		FA6851002AC9E2F700574724 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FAD896FF2AC88D630017B4BF /* Project object */;
 			proxyType = 1;
@@ -36,52 +29,104 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EA216DADC742B78A1FA3CE8 /* Pods-Biquadrate-QuickTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biquadrate-QuickTests.debug.xcconfig"; path = "Target Support Files/Pods-Biquadrate-QuickTests/Pods-Biquadrate-QuickTests.debug.xcconfig"; sourceTree = "<group>"; };
+		195CC25AA32BBB4F3EB48DF7 /* Pods_Biquadrate_BiquadrateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biquadrate_BiquadrateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4D0C1DA95FF703ECF45076 /* Pods-Biquadrate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biquadrate.release.xcconfig"; path = "Target Support Files/Pods-Biquadrate/Pods-Biquadrate.release.xcconfig"; sourceTree = "<group>"; };
+		41BDC2E946BFB2382E5BA92F /* Pods-Biquadrate-BiquadrateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biquadrate-BiquadrateUITests.debug.xcconfig"; path = "Target Support Files/Pods-Biquadrate-BiquadrateUITests/Pods-Biquadrate-BiquadrateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		530870796AD952EF29666273 /* Pods-Biquadrate-BiquadrateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biquadrate-BiquadrateUITests.release.xcconfig"; path = "Target Support Files/Pods-Biquadrate-BiquadrateUITests/Pods-Biquadrate-BiquadrateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84ED13FC78AC521CB118E5DA /* Pods_Biquadrate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biquadrate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0B976AAEDA656543BCE3F1 /* Pods-Biquadrate-WorkingBiquadrateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biquadrate-WorkingBiquadrateTests.debug.xcconfig"; path = "Target Support Files/Pods-Biquadrate-WorkingBiquadrateTests/Pods-Biquadrate-WorkingBiquadrateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9150CACE835D1C8BA7B527EC /* Pods_Biquadrate_QuickTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biquadrate_QuickTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB59C00D47B002434E12E97C /* Pods-Biquadrate-QuickTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biquadrate-QuickTests.release.xcconfig"; path = "Target Support Files/Pods-Biquadrate-QuickTests/Pods-Biquadrate-QuickTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFE0071B329A25DA8FC2BA61 /* Pods-BiquadrateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiquadrateTests.release.xcconfig"; path = "Target Support Files/Pods-BiquadrateTests/Pods-BiquadrateTests.release.xcconfig"; sourceTree = "<group>"; };
+		B13FEDC4FE302AA53C5DDAFE /* Pods-Biquadrate-uitests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biquadrate-uitests.debug.xcconfig"; path = "Target Support Files/Pods-Biquadrate-uitests/Pods-Biquadrate-uitests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2A55380A0A47CE929F46489 /* Pods_BiquadrateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiquadrateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B8FC7BC3C0B935C9590C65 /* Pods-Biquadrate-WorkingBiquadrateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biquadrate-WorkingBiquadrateTests.release.xcconfig"; path = "Target Support Files/Pods-Biquadrate-WorkingBiquadrateTests/Pods-Biquadrate-WorkingBiquadrateTests.release.xcconfig"; sourceTree = "<group>"; };
+		D30B2E6450A2A0478AB1C29D /* Pods-Biquadrate-uitests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biquadrate-uitests.release.xcconfig"; path = "Target Support Files/Pods-Biquadrate-uitests/Pods-Biquadrate-uitests.release.xcconfig"; sourceTree = "<group>"; };
+		E74FA91351380B45878D5F7F /* Pods-BiquadrateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiquadrateTests.debug.xcconfig"; path = "Target Support Files/Pods-BiquadrateTests/Pods-BiquadrateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E82D937B122F94A6124A21CE /* Pods-Biquadrate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biquadrate.debug.xcconfig"; path = "Target Support Files/Pods-Biquadrate/Pods-Biquadrate.debug.xcconfig"; sourceTree = "<group>"; };
+		F9F0F4E7939FE139BF02EA0E /* Pods_Biquadrate_uitests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biquadrate_uitests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6850FC2AC9E2F700574724 /* WorkingBiquadrateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkingBiquadrateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6850FE2AC9E2F700574724 /* WorkingBiquadrateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingBiquadrateTests.swift; sourceTree = "<group>"; };
+		FA6851052AC9E34200574724 /* WorkingQuickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingQuickTests.swift; sourceTree = "<group>"; };
 		FAD897072AC88D640017B4BF /* Biquadrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biquadrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD8970A2AC88D640017B4BF /* BiquadrateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiquadrateApp.swift; sourceTree = "<group>"; };
 		FAD8970C2AC88D640017B4BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAD8970E2AC88D660017B4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAD897112AC88D660017B4BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FAD897172AC88D660017B4BF /* BiquadrateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiquadrateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAD8971B2AC88D660017B4BF /* BiquadrateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiquadrateTests.swift; sourceTree = "<group>"; };
-		FAD897212AC88D660017B4BF /* BiquadrateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiquadrateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAD897252AC88D660017B4BF /* BiquadrateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiquadrateUITests.swift; sourceTree = "<group>"; };
-		FAD897272AC88D660017B4BF /* BiquadrateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiquadrateUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FAD897342AC88DCF0017B4BF /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
-		FAD897362AC88EE60017B4BF /* CalculationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationTests.swift; sourceTree = "<group>"; };
+		FC96EA6B483A467E7C34E303 /* Pods_Biquadrate_WorkingBiquadrateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biquadrate_WorkingBiquadrateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FA6850F92AC9E2F700574724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9496C802B99B7B8EF45EC105 /* Pods_Biquadrate_WorkingBiquadrateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAD897042AC88D640017B4BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAD897142AC88D660017B4BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAD8971E2AC88D660017B4BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				19A845711DCE142413A5F451 /* Pods_Biquadrate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A5D82F6BC113704D3B067CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84ED13FC78AC521CB118E5DA /* Pods_Biquadrate.framework */,
+				195CC25AA32BBB4F3EB48DF7 /* Pods_Biquadrate_BiquadrateUITests.framework */,
+				9150CACE835D1C8BA7B527EC /* Pods_Biquadrate_QuickTests.framework */,
+				B2A55380A0A47CE929F46489 /* Pods_BiquadrateTests.framework */,
+				FC96EA6B483A467E7C34E303 /* Pods_Biquadrate_WorkingBiquadrateTests.framework */,
+				F9F0F4E7939FE139BF02EA0E /* Pods_Biquadrate_uitests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8673B3D24DF7A3A44BDF0EAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E82D937B122F94A6124A21CE /* Pods-Biquadrate.debug.xcconfig */,
+				1A4D0C1DA95FF703ECF45076 /* Pods-Biquadrate.release.xcconfig */,
+				41BDC2E946BFB2382E5BA92F /* Pods-Biquadrate-BiquadrateUITests.debug.xcconfig */,
+				530870796AD952EF29666273 /* Pods-Biquadrate-BiquadrateUITests.release.xcconfig */,
+				0EA216DADC742B78A1FA3CE8 /* Pods-Biquadrate-QuickTests.debug.xcconfig */,
+				AB59C00D47B002434E12E97C /* Pods-Biquadrate-QuickTests.release.xcconfig */,
+				E74FA91351380B45878D5F7F /* Pods-BiquadrateTests.debug.xcconfig */,
+				AFE0071B329A25DA8FC2BA61 /* Pods-BiquadrateTests.release.xcconfig */,
+				8C0B976AAEDA656543BCE3F1 /* Pods-Biquadrate-WorkingBiquadrateTests.debug.xcconfig */,
+				B8B8FC7BC3C0B935C9590C65 /* Pods-Biquadrate-WorkingBiquadrateTests.release.xcconfig */,
+				B13FEDC4FE302AA53C5DDAFE /* Pods-Biquadrate-uitests.debug.xcconfig */,
+				D30B2E6450A2A0478AB1C29D /* Pods-Biquadrate-uitests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA6850FD2AC9E2F700574724 /* WorkingBiquadrateTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6850FE2AC9E2F700574724 /* WorkingBiquadrateTests.swift */,
+				FA6851052AC9E34200574724 /* WorkingQuickTests.swift */,
+			);
+			path = WorkingBiquadrateTests;
+			sourceTree = "<group>";
+		};
 		FAD896FE2AC88D630017B4BF = {
 			isa = PBXGroup;
 			children = (
 				FAD897092AC88D640017B4BF /* Biquadrate */,
-				FAD8971A2AC88D660017B4BF /* BiquadrateTests */,
-				FAD897242AC88D660017B4BF /* BiquadrateUITests */,
+				FA6850FD2AC9E2F700574724 /* WorkingBiquadrateTests */,
 				FAD897082AC88D640017B4BF /* Products */,
+				8673B3D24DF7A3A44BDF0EAC /* Pods */,
+				3A5D82F6BC113704D3B067CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,8 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				FAD897072AC88D640017B4BF /* Biquadrate.app */,
-				FAD897172AC88D660017B4BF /* BiquadrateTests.xctest */,
-				FAD897212AC88D660017B4BF /* BiquadrateUITests.xctest */,
+				FA6850FC2AC9E2F700574724 /* WorkingBiquadrateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,31 +159,34 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FAD8971A2AC88D660017B4BF /* BiquadrateTests */ = {
-			isa = PBXGroup;
-			children = (
-				FAD8971B2AC88D660017B4BF /* BiquadrateTests.swift */,
-				FAD897362AC88EE60017B4BF /* CalculationTests.swift */,
-			);
-			path = BiquadrateTests;
-			sourceTree = "<group>";
-		};
-		FAD897242AC88D660017B4BF /* BiquadrateUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FAD897252AC88D660017B4BF /* BiquadrateUITests.swift */,
-				FAD897272AC88D660017B4BF /* BiquadrateUITestsLaunchTests.swift */,
-			);
-			path = BiquadrateUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FA6850FB2AC9E2F700574724 /* WorkingBiquadrateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6851042AC9E2F700574724 /* Build configuration list for PBXNativeTarget "WorkingBiquadrateTests" */;
+			buildPhases = (
+				5B0C2457BE1B81CC95E007ED /* [CP] Check Pods Manifest.lock */,
+				FA6850F82AC9E2F700574724 /* Sources */,
+				FA6850F92AC9E2F700574724 /* Frameworks */,
+				FA6850FA2AC9E2F700574724 /* Resources */,
+				C4A1EABA67F6B10AAFB3EB27 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6851012AC9E2F700574724 /* PBXTargetDependency */,
+			);
+			name = WorkingBiquadrateTests;
+			productName = WorkingBiquadrateTests;
+			productReference = FA6850FC2AC9E2F700574724 /* WorkingBiquadrateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FAD897062AC88D640017B4BF /* Biquadrate */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD8972B2AC88D660017B4BF /* Build configuration list for PBXNativeTarget "Biquadrate" */;
 			buildPhases = (
+				62F952D67B61835A5F100EB4 /* [CP] Check Pods Manifest.lock */,
 				FAD897032AC88D640017B4BF /* Sources */,
 				FAD897042AC88D640017B4BF /* Frameworks */,
 				FAD897052AC88D640017B4BF /* Resources */,
@@ -153,42 +200,6 @@
 			productReference = FAD897072AC88D640017B4BF /* Biquadrate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FAD897162AC88D660017B4BF /* BiquadrateTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAD8972E2AC88D660017B4BF /* Build configuration list for PBXNativeTarget "BiquadrateTests" */;
-			buildPhases = (
-				FAD897132AC88D660017B4BF /* Sources */,
-				FAD897142AC88D660017B4BF /* Frameworks */,
-				FAD897152AC88D660017B4BF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAD897192AC88D660017B4BF /* PBXTargetDependency */,
-			);
-			name = BiquadrateTests;
-			productName = BiquadrateTests;
-			productReference = FAD897172AC88D660017B4BF /* BiquadrateTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FAD897202AC88D660017B4BF /* BiquadrateUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAD897312AC88D660017B4BF /* Build configuration list for PBXNativeTarget "BiquadrateUITests" */;
-			buildPhases = (
-				FAD8971D2AC88D660017B4BF /* Sources */,
-				FAD8971E2AC88D660017B4BF /* Frameworks */,
-				FAD8971F2AC88D660017B4BF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAD897232AC88D660017B4BF /* PBXTargetDependency */,
-			);
-			name = BiquadrateUITests;
-			productName = BiquadrateUITests;
-			productReference = FAD897212AC88D660017B4BF /* BiquadrateUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,21 +210,17 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					FA6850FB2AC9E2F700574724 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FAD897062AC88D640017B4BF;
+					};
 					FAD897062AC88D640017B4BF = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					FAD897162AC88D660017B4BF = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = FAD897062AC88D640017B4BF;
-					};
-					FAD897202AC88D660017B4BF = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = FAD897062AC88D640017B4BF;
 					};
 				};
 			};
 			buildConfigurationList = FAD897022AC88D630017B4BF /* Build configuration list for PBXProject "Biquadrate" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -226,13 +233,19 @@
 			projectRoot = "";
 			targets = (
 				FAD897062AC88D640017B4BF /* Biquadrate */,
-				FAD897162AC88D660017B4BF /* BiquadrateTests */,
-				FAD897202AC88D660017B4BF /* BiquadrateUITests */,
+				FA6850FB2AC9E2F700574724 /* WorkingBiquadrateTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FA6850FA2AC9E2F700574724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAD897052AC88D640017B4BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,23 +255,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAD897152AC88D660017B4BF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAD8971F2AC88D660017B4BF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B0C2457BE1B81CC95E007ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Biquadrate-WorkingBiquadrateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62F952D67B61835A5F100EB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Biquadrate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A1EABA67F6B10AAFB3EB27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biquadrate-WorkingBiquadrateTests/Pods-Biquadrate-WorkingBiquadrateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biquadrate-WorkingBiquadrateTests/Pods-Biquadrate-WorkingBiquadrateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Biquadrate-WorkingBiquadrateTests/Pods-Biquadrate-WorkingBiquadrateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		FA6850F82AC9E2F700574724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6850FF2AC9E2F700574724 /* WorkingBiquadrateTests.swift in Sources */,
+				FA6851062AC9E34200574724 /* WorkingQuickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAD897032AC88D640017B4BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,40 +341,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAD897132AC88D660017B4BF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAD8971C2AC88D660017B4BF /* BiquadrateTests.swift in Sources */,
-				FAD897372AC88EE60017B4BF /* CalculationTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAD8971D2AC88D660017B4BF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAD897282AC88D660017B4BF /* BiquadrateUITestsLaunchTests.swift in Sources */,
-				FAD897262AC88D660017B4BF /* BiquadrateUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FAD897192AC88D660017B4BF /* PBXTargetDependency */ = {
+		FA6851012AC9E2F700574724 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FAD897062AC88D640017B4BF /* Biquadrate */;
-			targetProxy = FAD897182AC88D660017B4BF /* PBXContainerItemProxy */;
-		};
-		FAD897232AC88D660017B4BF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAD897062AC88D640017B4BF /* Biquadrate */;
-			targetProxy = FAD897222AC88D660017B4BF /* PBXContainerItemProxy */;
+			targetProxy = FA6851002AC9E2F700574724 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		FA6851022AC9E2F700574724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0B976AAEDA656543BCE3F1 /* Pods-Biquadrate-WorkingBiquadrateTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5X22QCW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alexander.WorkingBiquadrateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biquadrate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Biquadrate";
+			};
+			name = Debug;
+		};
+		FA6851032AC9E2F700574724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B8FC7BC3C0B935C9590C65 /* Pods-Biquadrate-WorkingBiquadrateTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW5X22QCW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Alexander.WorkingBiquadrateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biquadrate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Biquadrate";
+			};
+			name = Release;
+		};
 		FAD897292AC88D660017B4BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -419,6 +506,7 @@
 		};
 		FAD8972C2AC88D660017B4BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82D937B122F94A6124A21CE /* Pods-Biquadrate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +536,7 @@
 		};
 		FAD8972D2AC88D660017B4BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A4D0C1DA95FF703ECF45076 /* Pods-Biquadrate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,85 +564,18 @@
 			};
 			name = Release;
 		};
-		FAD8972F2AC88D660017B4BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LW5X22QCW4;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Alexander.BiquadrateTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biquadrate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Biquadrate";
-			};
-			name = Debug;
-		};
-		FAD897302AC88D660017B4BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LW5X22QCW4;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Alexander.BiquadrateTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biquadrate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Biquadrate";
-			};
-			name = Release;
-		};
-		FAD897322AC88D660017B4BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LW5X22QCW4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Alexander.BiquadrateUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Biquadrate;
-			};
-			name = Debug;
-		};
-		FAD897332AC88D660017B4BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LW5X22QCW4;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Alexander.BiquadrateUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Biquadrate;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FA6851042AC9E2F700574724 /* Build configuration list for PBXNativeTarget "WorkingBiquadrateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6851022AC9E2F700574724 /* Debug */,
+				FA6851032AC9E2F700574724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FAD897022AC88D630017B4BF /* Build configuration list for PBXProject "Biquadrate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -568,24 +590,6 @@
 			buildConfigurations = (
 				FAD8972C2AC88D660017B4BF /* Debug */,
 				FAD8972D2AC88D660017B4BF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAD8972E2AC88D660017B4BF /* Build configuration list for PBXNativeTarget "BiquadrateTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAD8972F2AC88D660017B4BF /* Debug */,
-				FAD897302AC88D660017B4BF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAD897312AC88D660017B4BF /* Build configuration list for PBXNativeTarget "BiquadrateUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAD897322AC88D660017B4BF /* Debug */,
-				FAD897332AC88D660017B4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

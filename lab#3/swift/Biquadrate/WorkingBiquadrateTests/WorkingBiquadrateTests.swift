@@ -8,7 +8,7 @@
 import XCTest
 @testable import Biquadrate
 
-final class CalculationTests: XCTestCase {
+final class WorkingBiquadrateTests: XCTestCase {
 
     func testZeroRootsInBiqudrateEquation() {
         // Given (Arrange)
